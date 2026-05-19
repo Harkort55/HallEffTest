@@ -16,7 +16,7 @@ Reads an ESP32 Hall effect sensor via `hallRead()` and toggles a GPIO output (`G
 
 ## Pin connections
 
-- `GPIO 25`: output (toggled)
+- `GPIO 25`: output (LED toggled)
 - `GPIO 26`: input with pull-up (active LOW to change toggle rate; connect button to GND)
 - Hall sensor: wired to board-specific pins for `hallRead()` (ESP32 internal)
 
